@@ -10,7 +10,7 @@
 
 - 配置用户名、密码及SSH端口号
 
-vim add_auto_ssh.sh 修改：
+		vim add_auto_ssh.sh 修改：
 
 		sshport=9922 
 		password=''
@@ -18,4 +18,4 @@ vim add_auto_ssh.sh 修改：
 		
 - 在需要无密码登录到其它机器的主机上运行
 
-sh add_auto_ssh.sh
+		sh add_auto_ssh.sh
